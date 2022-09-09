@@ -1,0 +1,28 @@
+#main-div {
+    gap: 50px;
+    padding-right: 20px;
+}
+
+#student-chart-1, #student-chart-2, #student-chart-3, #student-chart-4{
+    height: 200px;
+    padding: 40px 20px;
+}
+#student-chart-1{
+    background-color: #4BDEC1;
+}
+#student-chart-2{
+    background-color: #FFC064;
+}
+#student-chart-3{
+    background-color: #61AAFF;
+}
+#student-chart-4{
+    background-color: #FF7188;
+}
+
+#student-chart-1, #student-chart-2, #student-chart-3, #student-chart-4{
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
